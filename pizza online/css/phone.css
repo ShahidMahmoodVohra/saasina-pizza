@@ -1,0 +1,133 @@
+
+/* Navigation */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+#navbar ul li a{
+    font-size: 18px;
+    padding: 0 8px;
+    padding-top: .8rem;
+}
+.logo img{
+    height: 2.8rem;
+    margin: 0 .5rem;
+    border-radius: 45%;
+}
+.logo a{
+    padding: 15px 10px;
+}
+
+/* Home Section */
+#home{
+    height:39.5rem;
+    padding: .3rem .3rem;
+}
+
+#home::before{
+    height: 48rem;
+    padding: .3rem .2rem;
+}
+#home h1{
+    font-size: 25px;
+}
+
+#home p{
+    font-size: .9rem;
+    line-height: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+span{
+    color: yellow;
+    font-size: 20px;
+    border-bottom: 3px solid forestgreen;
+}
+.ab{
+    color:white;
+    border-bottom: 3px solid forestgreen;
+    text-decoration: none;
+}
+
+
+/* Services Section */
+#services{
+    flex-direction: column;
+    margin: 2rem 4rem;
+    
+}
+
+/* #services.box{
+    width: 6.6rem; width is commit rest is ok
+    padding: 1.4rem;
+    margin: .2rem 0px;
+    margin-bottom: 2rem;
+
+    
+} */
+
+#services .box img{
+    width: 11.5rem;
+    object-fit: contain;
+}
+
+/* Clients Section */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+.client-item{
+    padding: 15px;
+
+}
+#clients img{
+    width: 66px;
+    padding: .4rem;
+    height: auto;
+}
+
+
+/* Contact us Section */
+#contact-box form{
+    width: 80%;
+
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: .6rem;
+    font-size: 12px;
+    
+}
+
+
+#contact-box label {
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Footer Section */
+.text-center-footer{
+
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1rem;
+    padding: 1rem .1rem;
+    
+}
+
+
+/* Utilities class */
+.primary-heading{
+    font-size: 1.5rem;
+}
+.secondary-heading{
+    font-size: 1rem;
+}
+
+.btn{
+    font-size: .8rem;
+    padding:.3rem .8rem;
+}
